@@ -1,5 +1,5 @@
 import pygame
-import random
+import random #importing packages
 pygame.font.init()
 
 s_width = 800
@@ -12,7 +12,7 @@ top_left_x = (s_width - play_width) // 2
 top_left_y = s_height - play_height
 
 
-
+# defing letters with corrosponding combinations.
 S = [['.....',
       '.....',
       '..00.',
